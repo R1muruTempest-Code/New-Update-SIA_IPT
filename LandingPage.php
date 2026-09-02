@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +9,11 @@
     <link rel="stylesheet" href="style/ui.css">
 </head>
 <body>
-   <header>
+   <header id ="home">
     <div class="logo">
+        <img src="image/logo.png" alt="Nadine's Catering">
     </div>
-
     <nav>
-        <a href="#">Home</a>
         <a href="#menu">Menu</a>
         <a href="src/about.html">About Us</a>
         <a href="#how-to-order">How to Order</a>
@@ -62,54 +63,61 @@
                     <img src="image/a.webp" id="Chicken Adobo">
                     <h3>Chicken Adobo</h3>
                     <p>₱50.00</p>
-                    <button>Order Now</button>
+                    <button onclick="orderNow()">Order Now</button>
                 </div>
 
                 <div class="food-card">
                     <img src="image/c.webp" id="Chicken Adobo">
                     <h3>Chicken Curry</h3>
                     <p>₱50.00</p>
-                    <button>Order Now</button>
+                    <button onclick="orderNow()">Order Now</button>
                 </div>
                 <div class="food-card">
-                    <img src="image/t.webp" id="Chicken Adobo">
+                    <img src="image/t.webp" id="Chicken Teriyaki">
                     <h3>Chicken Teriyaki</h3>
                     <p>₱50.00</p>
-                    <button>Order Now</button>
+                    <button onclick="orderNow()">Order Now</button>
                 </div>
                 <div class="food-card">
-                    <img src="image/m.webp" id="Chicken Adobo">
+                    <img src="image/m.webp" id="Mixed Vegatables">
                     <h3>Mixed Vegatables</h3>
                     <p>₱50.00</p>
-                    <button>Order Now</button>
+                    <button onclick="orderNow()">Order Now</button>
                 </div>
                 <div class="food-card">
-                    <img src="image/a.webp" id="Chicken Adobo">
-                    <h3>Chicken Adobo</h3>
+                    <img src="image/p.webp" id="Pork Adobo">
+                    <h3>Pork Adobo</h3>
                     <p>₱50.00</p>
-                    <button>Order Now</button>
+                    <button onclick="orderNow()">Order Now</button>
                 </div>
                 <div class="food-card">
-                    <img src="image/a.webp" id="Chicken Adobo">
-                    <h3>Chicken Adobo</h3>
+                    <img src="image/s.webp" id="Sizzling Sigsig">
+                    <h3>Sizzling Sigsig</h3>
                     <p>₱50.00</p>
-                    <button>Order Now</button>
+                    <button onclick="orderNow()">Order Now</button>
                 </div>
                 <div class="food-card">
-                    <img src="image/a.webp" id="Chicken Adobo">
-                    <h3>Chicken </h3>
+                    <img src="image/l.webp" id="Crispy Lechon">
+                    <h3>Crispy Lechon</h3>
                     <p>₱50.00</p>
-                    <button>Order Now</button>
+                    <button onclick="orderNow()">Order Now</button>
                 </div>
-
-
+                <div>
+                    <div class="food-card">
+                        <img src="image/k.webp" id="Kare-Kare">
+                        <h3>Kare-Kare</h3>
+                        <p>₱50.00</p>
+                        <button onclick="orderNow()">Order Now</button>
+                    </div>
+                </div>
            </div>
          </div>
          <button class="carousel-btn next" onclick="moveSlide(1)">❯</button>
-    </div>
-    
+    </div> 
+    <br>
+    <br>
+           <a href ="#home"  class ="back-to-home">Back to Home</a>
   </section>
-
 
   <section class="features">
 
@@ -139,6 +147,50 @@
 
 </section>
 
- </body>
+<section id="how-to-order" class="how-to-order">
 
+    <h2>How to Order</h2>
+    <p class="how-subtitle">Getting your favorite meal has never been easier</p>
+
+    <div class="steps-container">
+
+        <div class="step-card">
+            <div class="step-number">1</div>
+            <span class="step-icon">🍽️</span>
+            <h3>Browse the Menu</h3>
+            <p>Explore our Popular Choices and pick the meals you love.</p>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">2</div>
+            <span class="step-icon">🛒</span>
+            <h3>Add to Cart</h3>
+            <p>Click "Order Now" on any dish to add it to your cart.</p>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">3</div>
+            <span class="step-icon">🔐</span>
+            <h3>Login & Checkout</h3>
+            <p>Sign in to confirm your order details and delivery info.</p>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">4</div>
+            <span class="step-icon">🚚</span>
+            <h3>Sit Back & Relax</h3>
+            <p>We'll prepare and deliver your order fresh and on time.</p>
+        </div>
+
+    </div>
+
+  </section>
+   <div id="cartWidget" class="cart-widget">
+      <span id="cartCount">0</span> items in cart
+      <button id="viewCartBtn">View Cart</button>
+  </div>
+   <script src="js/c.js"></script>
+   <script src="js/b.js"></script>
+   <script src="js/h.js"></script>
+ </body>
 </html>
