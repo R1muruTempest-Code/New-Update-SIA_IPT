@@ -50,7 +50,7 @@
   </div>
 
   <div class="footer-bottom">
-    <span>© Business Name. All rights reserved.</span>
+    <span>© Nadine's Catering. All rights reserved.</span>
     <a href="#top">Back to top</a>
   </div>
 </footer>
