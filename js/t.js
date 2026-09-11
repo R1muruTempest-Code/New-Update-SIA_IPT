@@ -1,3 +1,6 @@
+/**
+ * Contact Form Submission
+ */
 document.getElementById('contactForm').addEventListener('submit',(e) => {
     e.preventDefault();
     // Handle form submission logic here

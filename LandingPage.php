@@ -15,7 +15,7 @@
     </div>
     <nav>
         <a href="#menu">Menu</a>
-        <a href="src/about.html">About Us</a>
+        <a href="#about">About Us</a>
         <a href="#how-to-order">How to Order</a>
         <a href="#contact">Contact Us</a>
     </nav>
@@ -89,8 +89,10 @@
     </div>
 
   </section>
+   
+<?php include 'about.php' ?>
 
-   <!-- Features Section -->
+<!-- Features Section -->
 
   <section class="features">
 
@@ -119,6 +121,7 @@
     </div>
 
 </section>
+
 <?php include 'footer.php' ?>
 
    <div id="cartWidget" class="cart-widget">

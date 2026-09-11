@@ -1,3 +1,6 @@
+/**
+ * Cart Functionality
+ */
 let cart = [];
 
     document.querySelectorAll('.food-card').forEach(card => {
