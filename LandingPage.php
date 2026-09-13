@@ -37,10 +37,9 @@
         </p>
 
         <div class="hero-buttons">
-            <a href="#menu" class="view-btn">🍴 View Menu</a>
-            <a href="LoginForm.html" class="order-btn">🛒 Order Now</a>
-        </div>
-
+         <button class="view-btn">🍴 View Menu</button>
+         <button class="order-btn">🛒 Order Now</button>
+        </div> 
     </div>
 
     <div class="hero-image">

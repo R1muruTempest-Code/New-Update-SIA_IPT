@@ -65,7 +65,7 @@ nav a:hover {
 /* HERO */
 
 .hero {
-    min-height: 540px;
+    min-height: 700px;
     display: flex;
     align-items: center;
     background: #fffef8;
@@ -129,7 +129,7 @@ nav a:hover {
 
 .hero-image {
     width: 50%;
-    height: 540px;
+    height: 700px;
 }
 
 .hero-image img {
