@@ -17,7 +17,7 @@
         <a href="#menu">Menu</a>
         <a href="#about">About Us</a>
         <a href="#how-to-order">How to Order</a>
-        <a href="#contact">Contact Us</a>
+        <a href="#footer">Contact Us</a>
     </nav>
 
     <a href="LoginForm.html" class="nav-order">Login</a>
@@ -37,8 +37,8 @@
         </p>
 
         <div class="hero-buttons">
-         <button class="view-btn">🍴 View Menu</button>
-         <button class="order-btn">🛒 Order Now</button>
+         <a href="#menu" class="view-btn">🍴 View Menu</a>
+         <a href="#menu" class="order-btn">🛒 Order Now</a>
         </div> 
     </div>
 

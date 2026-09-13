@@ -1,6 +1,6 @@
 <!-- Footer -->
  
-<footer class="site-footer">
+<footer  id="footer" class="site-footer">
   <div class="footer-grid">
 
     <div class="footer-brand">
@@ -25,7 +25,7 @@
         <li><a href="#menu">Menu</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#how-to-order">How to Order</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
       </ul>
     </div>
 
